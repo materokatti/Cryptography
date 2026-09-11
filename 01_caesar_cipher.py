@@ -12,7 +12,7 @@ def caesar_cipher(text, shift):
             cipher_text += character
     return cipher_text
 
-# print(caesar_cipher("Hello, World!", 8))
+print(caesar_cipher("Hello, World!", 8))
 
 # 2. Define Dn, the decryption function.
 # D_n(x) = x - k mod 26
